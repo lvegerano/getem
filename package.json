@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/lab/bin/lab"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,10 @@
   },
   "homepage": "https://github.com/lvegerano/getem#readme",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "4.17.4"
+  },
+  "devDependencies": {
+    "code": "4.1.0",
+    "lab": "14.2.2"
   }
 }
