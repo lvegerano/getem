@@ -1,8 +1,6 @@
 # getem
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![Build Status][travis-image]][travis-url]
+[![Build Status](https://travis-ci.org/lvegerano/getem.svg?branch=master)](https://travis-ci.org/lvegerano/getem)
 
 A module allows you get all the files withing a directory. Inpired by [node-require-all](https://github.com/felixge/node-require-all) .
 ## Installation
