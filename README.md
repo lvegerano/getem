@@ -13,6 +13,8 @@ const directory = `${__dirname}/some/path`; // or an options object
 const modules = require('getem')(directory);
 ```
 ## Options
+Options can be a `string` of the path. Or a configuration object.
+ 
 | key             | default                  | description                                                                                   |
 | --------------- |:------------------------:| ---------------------------------------------------------------------------------------------:|
 | dirname         | `null`                   | The directory where file are going to be required from                                        | 
@@ -22,4 +24,6 @@ const modules = require('getem')(directory);
 | filterFile      | `/^([^\.].*)\.js(on)?$/` | `RegEx` or `Function` - it must return falsy value. By default it will exclude hidden files   |
 | map             | `(val) => val`           | Allows you to modify the name of the key to be inserted as the module refer                   | 
 
+### Licence
+MIT
 
