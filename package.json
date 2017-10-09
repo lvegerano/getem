@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "./node_modules/lab/bin/lab"
+    "test": "./node_modules/lab/bin/lab -c"
   },
   "repository": {
     "type": "git",
@@ -24,12 +24,12 @@
   "bugs": {
     "url": "https://github.com/lvegerano/getem/issues"
   },
-  "homepage": "https://github.com/lvegerano/getem#readme",
-  "dependencies": {
-    "lodash": "4.17.4"
+  "engines": {
+    "node": ">= 6",
+    "npm": ">= 4.6"
   },
+  "homepage": "https://github.com/lvegerano/getem#readme",
   "devDependencies": {
-    "code": "4.1.0",
-    "lab": "14.2.2"
+    "lab": "^14.3.1"
   }
 }
